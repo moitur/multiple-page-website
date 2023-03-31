@@ -73,7 +73,7 @@ nav ul li a:hover {
 }
 
 header {
-    background-image: url("./images/website\ banner.jpg");
+    background-image: url("./images/se.jpg");
     padding: 200px 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,14 +129,13 @@ main {
 
 .single-items {
     height: 250px;
-    border: 3px solid gray;
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .single-items:hover img {
-    transform: scale(1.5);
+    transform: scale(1.1);
     border-radius: 20px;
 }
 .single-items img {
@@ -148,4 +147,39 @@ main {
     justify-content: space-between;
     color: gray;
     margin-top: 5px;
+}
+
+#previous-next-parent {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#previous-next-parent h3 a {
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#previous-next-parent h3 a:hover {
+    background-color: #0c7a52;
+}
+
+#previous-next-parent a {
+    text-decoration: none;
+    color: white;
+}
+
+#previous-next-parent div a {
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #80808069;
+}
+
+#previous-next-parent div a:first-child {
+    background-color: #04AA6D;
 }
