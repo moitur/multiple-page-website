@@ -1,0 +1,147 @@
+/* Main part Code here */
+
+main {
+    background-color: #2D236A;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#main-section {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#latest-video-parent {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.latest-video {
+    font-size: 25px;
+    font-weight: bold;
+    color: #04AA6D;
+}
+
+.latest-pages {
+    color: #04AA6D;
+}
+
+.latest-pages span {
+    color: black;
+    background-color: rgb(152, 144, 144);
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 10px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+
+#single-items-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+}
+
+.single-items {
+    height: 250px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.single-items:hover img {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.single-items img {
+    width: 100%;
+}
+
+.single-items div {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 5px;
+}
+
+#previous-next-parent {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#previous-next-parent h3 a {
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#previous-next-parent h3 a:hover {
+    background-color: #0c7a52;
+}
+
+#previous-next-parent a {
+    text-decoration: none;
+    color: white;
+}
+
+#previous-next-parent div a {
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #80808069;
+}
+
+#previous-next-parent div a:first-child {
+    background-color: #04AA6D;
+}
+
+
+/* nav code here */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 70px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 40px;
+}
